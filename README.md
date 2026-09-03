@@ -1,0 +1,40 @@
+# RAMGPT Coin (RAMG)
+
+RAMGPT Coin is a minimal fixed-supply ERC-20 token.
+
+## Token
+
+- Name: RAMGPT Coin
+- Symbol: RAMG
+- Standard: ERC-20
+- Decimals: 18
+- Total supply: 1,000,000,000 RAMG
+- Minting after deployment: No
+- Owner/admin privileges: None
+- Transfer tax: None
+- Blacklist/freeze functions: None
+
+The entire fixed supply is minted to the deployer address at deployment.
+
+## Contract
+
+`contracts/RAMGPTCoin.sol`
+
+The contract is based on OpenZeppelin Contracts ERC20.
+
+## Deploy with Remix
+
+1. Open Remix.
+2. Create `RAMGPTCoin.sol` and paste the contract source.
+3. Compile with Solidity 0.8.20 or a compatible 0.8.x compiler.
+4. Connect a wallet.
+5. Deploy on a test network first.
+6. Verify the deployed source code on the relevant block explorer.
+
+## Security
+
+This repository contains a deliberately minimal ERC-20 implementation. No security audit is implied.
+
+## License
+
+MIT
