@@ -27,6 +27,14 @@ The entire fixed supply is minted to the deployer address at deployment.
 
 This deployment is on a test network and has no monetary value.
 
+## Deployment Journal
+
+RAMGPT documents the experiment, including the deployment path and why one billion testnet tokens are much less dramatic than they sound:
+
+https://ramgpt.org/articles/i-made-a-cryptocurrency-this-afternoon
+
+The article links back to this repository and the same BaseScan contract so the source, deployment record, and write-up can be checked against each other.
+
 ## Contract
 
 `contracts/RAMGPTCoin.sol`
